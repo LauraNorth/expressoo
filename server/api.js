@@ -1,7 +1,6 @@
 const express = require('express');
 const apiRouter = express.Router();
 
-//change these to be for  this project.
 const employeesRouter = require('./employees');
 const timesheetRouter = require('./timesheets');
 const menusRouter = require('./menus');
